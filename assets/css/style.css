@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+nav .img-nav {
+    height: 40px;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: white;
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.img-main {
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+.form-control{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.card {
+    margin: auto;
+    max-width: 800px;
+}
+
+.card img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
